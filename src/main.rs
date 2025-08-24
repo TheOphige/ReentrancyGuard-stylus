@@ -6,5 +6,5 @@ pub extern "C" fn main() {}
 
 #[cfg(feature = "export-abi")]
 fn main() {
-    reentrancyguard_stylus::print_from_args();
+    reentrancy_guard_stylus::print_from_args();
 }
